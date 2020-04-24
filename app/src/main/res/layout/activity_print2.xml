@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".Print2Activity">
+
+
+    <Button
+        android:id="@+id/btn_open_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开蓝牙"
+        android:onClick="onViewClick"/>
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接打印机"
+        android:onClick="onViewClick"/>
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印"
+        android:onClick="onViewClick"/>
+    <TextView
+        android:id="@+id/tv_bluetooth_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
